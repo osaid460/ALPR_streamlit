@@ -1,6 +1,8 @@
 streamlit
 numpy
-opencv-python-headless
+opencv-python==4.8.0.76
 Pillow
 easyocr
 ultralytics
+freeglut3-dev
+libgtk2.0-dev
