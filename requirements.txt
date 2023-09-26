@@ -1,5 +1,7 @@
 streamlit
 numpy
+torch
+scikit-learn
 opencv-python-headless
 Pillow
 easyocr
