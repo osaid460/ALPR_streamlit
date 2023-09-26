@@ -56,8 +56,8 @@ import os
 import pandas as pd
 #---------logo and title set--------------
 top_image = Image.open('static/logo1.PNG')
-bottom_image = Image.open('static/banner_bottom.png')
-main_image = Image.open('static/background.jpg')
+# bottom_image = Image.open('static/banner_bottom.png')
+# main_image = Image.open('static/background.jpg')
 
 
 
