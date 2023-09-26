@@ -314,7 +314,8 @@ elif option == "Detect Make & Model":
         image = Image.open(uploaded_image)
         st.image(image, caption="Uploaded Image", use_column_width=True)
 
-        readimage = cv2.imread(file_path)
+        #readimage = cv2.imread(file_path)
+        readimage = cv2.imread(uploaded_image.name)
         vehicle_color = detect_color(readimage)
 
         if st.button("Detect Make & Model"):
